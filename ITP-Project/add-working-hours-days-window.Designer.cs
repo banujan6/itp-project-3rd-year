@@ -31,18 +31,18 @@ namespace ITP_Project
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.number_of_working_days = new System.Windows.Forms.NumericUpDown();
+            this.working_hours = new System.Windows.Forms.NumericUpDown();
+            this.working_minutes = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            this.day_selector = new System.Windows.Forms.CheckedListBox();
+            this.btn_save = new System.Windows.Forms.Button();
+            this.btn_reset = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.number_of_working_days)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.working_hours)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.working_minutes)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -65,26 +65,26 @@ namespace ITP_Project
             this.label2.TabIndex = 1;
             this.label2.Text = "Working Hours Per Day";
             // 
-            // numericUpDown1
+            // number_of_working_days
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(51, 73);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(254, 27);
-            this.numericUpDown1.TabIndex = 2;
+            this.number_of_working_days.Location = new System.Drawing.Point(51, 73);
+            this.number_of_working_days.Name = "number_of_working_days";
+            this.number_of_working_days.Size = new System.Drawing.Size(254, 27);
+            this.number_of_working_days.TabIndex = 2;
             // 
-            // numericUpDown2
+            // working_hours
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(385, 73);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(55, 27);
-            this.numericUpDown2.TabIndex = 3;
+            this.working_hours.Location = new System.Drawing.Point(385, 73);
+            this.working_hours.Name = "working_hours";
+            this.working_hours.Size = new System.Drawing.Size(55, 27);
+            this.working_hours.TabIndex = 3;
             // 
-            // numericUpDown3
+            // working_minutes
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(529, 73);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(55, 27);
-            this.numericUpDown3.TabIndex = 4;
+            this.working_minutes.Location = new System.Drawing.Point(529, 73);
+            this.working_minutes.Name = "working_minutes";
+            this.working_minutes.Size = new System.Drawing.Size(55, 27);
+            this.working_minutes.TabIndex = 4;
             // 
             // label3
             // 
@@ -114,10 +114,10 @@ namespace ITP_Project
             this.label5.TabIndex = 7;
             this.label5.Text = "Select Working Days";
             // 
-            // checkedListBox1
+            // day_selector
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
+            this.day_selector.FormattingEnabled = true;
+            this.day_selector.Items.AddRange(new object[] {
             "Monday",
             "Tuesday",
             "Wednesday",
@@ -125,50 +125,50 @@ namespace ITP_Project
             "Friday",
             "Saturday",
             "Sunday"});
-            this.checkedListBox1.Location = new System.Drawing.Point(51, 198);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(600, 158);
-            this.checkedListBox1.TabIndex = 8;
+            this.day_selector.Location = new System.Drawing.Point(51, 198);
+            this.day_selector.Name = "day_selector";
+            this.day_selector.Size = new System.Drawing.Size(600, 158);
+            this.day_selector.TabIndex = 8;
             // 
-            // button1
+            // btn_save
             // 
-            this.button1.Location = new System.Drawing.Point(557, 389);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_save.Location = new System.Drawing.Point(557, 389);
+            this.btn_save.Name = "btn_save";
+            this.btn_save.Size = new System.Drawing.Size(94, 29);
+            this.btn_save.TabIndex = 9;
+            this.btn_save.Text = "Save";
+            this.btn_save.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_reset
             // 
-            this.button2.Location = new System.Drawing.Point(452, 389);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 29);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Reset";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_reset.Location = new System.Drawing.Point(452, 389);
+            this.btn_reset.Name = "btn_reset";
+            this.btn_reset.Size = new System.Drawing.Size(94, 29);
+            this.btn_reset.TabIndex = 10;
+            this.btn_reset.Text = "Reset";
+            this.btn_reset.UseVisualStyleBackColor = true;
             // 
             // add_working_hours_days_window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(705, 453);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkedListBox1);
+            this.Controls.Add(this.btn_reset);
+            this.Controls.Add(this.btn_save);
+            this.Controls.Add(this.day_selector);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.working_minutes);
+            this.Controls.Add(this.working_hours);
+            this.Controls.Add(this.number_of_working_days);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "add_working_hours_days_window";
             this.Text = "Add Working Days & Hours";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.number_of_working_days)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.working_hours)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.working_minutes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,14 +178,14 @@ namespace ITP_Project
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown number_of_working_days;
+        private System.Windows.Forms.NumericUpDown working_hours;
+        private System.Windows.Forms.NumericUpDown working_minutes;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.CheckedListBox day_selector;
+        private System.Windows.Forms.Button btn_save;
+        private System.Windows.Forms.Button btn_reset;
     }
 }
