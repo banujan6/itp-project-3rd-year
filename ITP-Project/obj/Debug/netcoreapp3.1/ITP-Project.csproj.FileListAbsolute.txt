@@ -1,0 +1,17 @@
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\bin\Debug\netcoreapp3.1\ITP-Project.exe
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\bin\Debug\netcoreapp3.1\ITP-Project.deps.json
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\bin\Debug\netcoreapp3.1\ITP-Project.runtimeconfig.json
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\bin\Debug\netcoreapp3.1\ITP-Project.runtimeconfig.dev.json
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\bin\Debug\netcoreapp3.1\ITP-Project.dll
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\bin\Debug\netcoreapp3.1\ITP-Project.pdb
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\obj\Debug\netcoreapp3.1\ITP-Project.csprojAssemblyReference.cache
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\obj\Debug\netcoreapp3.1\ITP_Project.add_student_group.resources
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\obj\Debug\netcoreapp3.1\ITP_Project.Add_Tags.resources
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\obj\Debug\netcoreapp3.1\ITP_Project.Form1.resources
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\obj\Debug\netcoreapp3.1\ITP-Project.csproj.GenerateResource.cache
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\obj\Debug\netcoreapp3.1\ITP-Project.AssemblyInfoInputs.cache
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\obj\Debug\netcoreapp3.1\ITP-Project.AssemblyInfo.cs
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\obj\Debug\netcoreapp3.1\ITP-Project.csproj.CoreCompileInputs.cache
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\obj\Debug\netcoreapp3.1\ITP-Project.dll
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\obj\Debug\netcoreapp3.1\ITP-Project.pdb
+D:\Course web\3rd year\1st sem\ITPM\ITPM PRoject\ITP-Project\obj\Debug\netcoreapp3.1\ITP-Project.genruntimeconfig.cache
