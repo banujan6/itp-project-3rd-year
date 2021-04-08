@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\banujan\\source\\repos\\ITP-Project\\ITP-Project\\ITP-Project.csproj": {}
+    "O:\\vs code\\ITPM\\ITP-Project\\ITP-Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\banujan\\source\\repos\\ITP-Project\\ITP-Project\\ITP-Project.csproj": {
+    "O:\\vs code\\ITPM\\ITP-Project\\ITP-Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\banujan\\source\\repos\\ITP-Project\\ITP-Project\\ITP-Project.csproj",
+        "projectUniqueName": "O:\\vs code\\ITPM\\ITP-Project\\ITP-Project.csproj",
         "projectName": "ITP-Project",
-        "projectPath": "C:\\Users\\banujan\\source\\repos\\ITP-Project\\ITP-Project\\ITP-Project.csproj",
-        "packagesPath": "C:\\Users\\banujan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\banujan\\source\\repos\\ITP-Project\\ITP-Project\\obj\\",
+        "projectPath": "O:\\vs code\\ITPM\\ITP-Project\\ITP-Project.csproj",
+        "packagesPath": "C:\\Users\\PIYUMANTHA\\.nuget\\packages\\",
+        "outputPath": "O:\\vs code\\ITPM\\ITP-Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\banujan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PIYUMANTHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
